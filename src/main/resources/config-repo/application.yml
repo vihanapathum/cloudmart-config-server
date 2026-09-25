@@ -1,0 +1,18 @@
+# Shared configuration served to every microservice that imports from this
+# Config Server (spring.config.import=configserver:...). Values here apply
+# to ALL services unless overridden in a service-specific file below.
+management:
+  endpoints:
+    web:
+      exposure:
+        include: health,info
+  endpoint:
+    health:
+      show-details: when-authorized
+
+logging:
+  pattern:
+    console: "%d{yyyy-MM-dd HH:mm:ss} [%thread] %-5level %logger{36} - %msg%n"
+
+app:
+  platform-name: CloudMart

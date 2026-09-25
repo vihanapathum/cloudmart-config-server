@@ -1,0 +1,3 @@
+app:
+  feature:
+    firestore-audit-enabled: true
