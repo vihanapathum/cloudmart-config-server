@@ -44,5 +44,5 @@ curl http://localhost:8888/product-service/default
 
 - **Student Name:** A.G.Vihana Pathum Piyasiri
 - **Student Number:** 2301692038
-- **Slack Handle:**
+- **Slack Handle:** vihana_piyasiri
 - **GCP Project ID:** project-f45a7f6e-0370-44ea-b74
